@@ -12,3 +12,7 @@ h2{
     height: 15vw;
     object-fit: cover;
 }
+
+footer{
+    background-color: #007bff;
+}
