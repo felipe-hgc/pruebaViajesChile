@@ -1,6 +1,8 @@
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
-  if (document.body.scrollTop > 685 || document.documentElement.scrollTop > 685) {
+  let altura=$('.carousel').height();
+  console.log(altura);
+  if (document.body.scrollTop > altura || document.documentElement.scrollTop > altura) {
     
     document.getElementById("navbar").style.background = "#007bff";
   } else {
