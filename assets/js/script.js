@@ -22,3 +22,8 @@ function scrollFunction() {
     document.getElementById("navbar").style.background = "none";
   }
 }
+
+/*Cierra la lista del navbar al hacer clic a un link*/
+$('.navbar-nav>li>a').on('click', function(){
+  $('.navbar-collapse').collapse('hide');
+});
